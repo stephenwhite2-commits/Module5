@@ -1,16 +1,22 @@
-# Introduce a variable for books purchased
-books_purchased = int(input("Please, enter the number of books purchased this month: "))
-# Introduce a variable to hold the points assigned
+while True:
+    try:
+        # Introduce a variable for books purchased
+        books_purchased = int(input("Please, enter the number of books purchased this month: "))
+        break
+    except ValueError:
+        # if not a valid int
+        print("That's not a valid number. Try again, but be sure you input a whole number.")
+    # Introduce a variable to hold the points assigned
 points = 0
 # Check how many books were purchased
 if books_purchased >= 8:
-  points = 60
+    points = 60
 elif books_purchased >= 6:
-  points = 30
+    points = 30
 elif books_purchased >= 4:
-  points = 15
+    points = 15
 elif books_purchased >= 2:
-  points = 5
+    points = 5
 else: 
-  points = 0
+    points = 0
 print(f"You Earned {points} points this month.")
