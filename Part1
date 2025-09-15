@@ -13,7 +13,7 @@ for year in range(num_years):
     while True:
       try:
         # Ask for the rainfall for teh current month
-        rainfall = float(input)f"Enter the inches of rainfall for month {month}: "))
+        rainfall = float(input(f"Enter the inches of rainfall for month {month}: "))
         # make sure the rainfall isn't negative!!
         if rainfall >= 0:
           total_rainfall += rainfall
