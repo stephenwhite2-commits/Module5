@@ -3,7 +3,7 @@ total_rainfall = 0
 total_months = 0
 
 # Ask how many years we want to track
-num_years = iht(input("How many years would you like to track? "))
+num_years = int(input("How many years would you like to track? "))
 
 # Outer loop for each year
 for year in range(num_years):
