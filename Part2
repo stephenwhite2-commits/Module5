@@ -13,4 +13,4 @@ elif books_purchased >= 2:
   points = 5
 else: 
   points = 0
-print ("You earned {} points this month.".format(points))
+print(f"You Earned {points} points this month.")
