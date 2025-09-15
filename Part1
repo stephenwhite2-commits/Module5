@@ -23,8 +23,8 @@ for year in range(num_years):
           print("Rainfall cannot be a negative number. Please try again.")
       except ValueError:
         print("Invalid input. Please enter a numerical value.")
-average_rainfall = total_rainfall / num_years
+average_rainfall = total_rainfall / total_months
 print(f"\n Rainfall Summary \n")
-print(f"Total months tracked: {total_months:.2f}")
+print(f"Total months tracked: {total_months}")
 print(f"Total rainfall: {total_rainfall:.2f} inches")
 print(f"Average monthly rainfall: {average_rainfall:.2f} inches")
