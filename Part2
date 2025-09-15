@@ -1,5 +1,5 @@
 # Introduce a variable for books purchased
-books_purchases = int(Input("Please, enter the number of books purchased this month: "))
+books_purchased = int(Input("Please, enter the number of books purchased this month: "))
 # Introduce a variable to hold the points assigned
 points = 0
 # Check how many books were purchased
